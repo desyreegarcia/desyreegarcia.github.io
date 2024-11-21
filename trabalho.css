@@ -1,0 +1,86 @@
+/*  paleta de cores
+    #050517 - azul escuro
+    #ff7e74 - rosa coral
+    #d3d1d7 - gelo
+    #fffbef - nude
+    #F4E4B3 - bege claro
+    #EFC98B - bege escuro
+
+    fontes: Baskerville Old Face
+*/
+
+*{
+    margin: 10px;
+    padding: 1px;
+}
+
+*::selection{
+    background-color: #EFC98B;
+    color: white;
+}
+
+.divprincipal{
+    background-color: #fffbef;
+}
+
+h1{
+    text-align: center;
+    color: #ff7e74;
+    font-family: Lucida Handwriting;
+}
+
+h2{
+    color: #050517;
+    text-align: center;
+    font-family:'Baskerville Old Face';
+    margin-left: 200px;
+
+}
+
+h3{
+    color: #050517;
+    text-align: justify;
+    font-family:'Baskerville Old Face';
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.topo{
+    background-color: #F4E4B3;
+    margin: 5px;
+    padding: 20px;
+    text-align: right;
+    font-family:Calibri;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    text-align:center;
+    font-size: 105%;
+}
+
+a:link{
+    color: #050517;
+}
+
+a:visited{
+    color: #050517;
+}
+
+a:active{
+    color: #ff7e74;
+}
+
+a:hover{
+    text-align: center;
+    color: #ff7e74;
+    font: bold;
+}
+
+img{
+    float: right;
+    margin-right: 200px;
+}
