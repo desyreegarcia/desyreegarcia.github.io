@@ -1,17 +1,5 @@
-/*  paleta de cores
-    #050517 - azul escuro
-    #ff7e74 - rosa coral
-    #d3d1d7 - gelo
-    #fffbef - nude
-    #F4E4B3 - bege claro
-    #EFC98B - bege escuro
-
-    fontes: Baskerville Old Face
-*/
-
-
 *{
-    margin: 5px;
+    margin: 10px;
     padding: 1px;
 }
 
@@ -20,11 +8,7 @@
     color: white;
 }
 
-.divprincipal{
-    background-color: #fffbef;
-}
-
-.header{
+.container{
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #F4E4B3;
@@ -49,6 +33,8 @@
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #fffbef;
+    margin: 5px;
+    text-align: right;
     font-family:'Lucida Sans';
     color: #050517;
 }
@@ -57,7 +43,10 @@
     background-color: #fffbef;
     padding: 15px;
     text-align: center;
-    align-content: center
+}
+
+.divprincipal{
+    background-color: #fffbef;
 }
 
 h1{
@@ -132,13 +121,4 @@ a:hover{
     text-align: center;
     color: #ff7e74;
     font: bold;
-}
-
-.footer{
-    background-color: #F4E4B3;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
