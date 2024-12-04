@@ -1,36 +1,22 @@
-/*  paleta de cores
-    #050517 - azul escuro
-    #ff7e74 - rosa coral
-    #d3d1d7 - gelo
-    #fffbef - nude
-    #F4E4B3 - bege claro
-    #EFC98B - bege escuro
-
-    fontes: Baskerville Old Face
+/*  paleta de cores #050517 azul escuro / #ff7e74 rosa coral / #F4E4B3 nude
+    fontes: Baskerville Old Face / Lucida Sans / Lucida Handwriting / Baskerville Old Face
 */
-
 
 *{
     margin: 5px;
     padding: 1px;
+    font-family:'Lucida Sans';
 }
 
 *::selection{
-    background-color: #efc98b;
-    color: white;
-}
-
-.divprincipal{
-    background-color: #fffbef;
+    background-color: #050517;
+    color: #F4E4B3;
 }
 
 .header{
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #F4E4B3;
-    margin: 5px;
-    text-align: right;
-    font-family:'Lucida Sans';
     color: #050517;
 }
 
@@ -40,37 +26,33 @@
     text-align: left;
 }
 .item-nav{
-    background-color: #F4E4B3;
     padding: 15px;
     text-align: right;
 }
 
-.container-select{
+.container-body{
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: #fffbef;
-    font-family:'Lucida Sans';
     color: #050517;
 }
 
-.item-select{
-    background-color: #fffbef;
+.item-body{
     padding: 15px;
     text-align: center;
-    align-content: center
+    align-content: center;
 }
 
 h1{
     text-align: center;
     color: #ff7e74;
     font-family: Lucida Handwriting;
-    margin-top: 50px;
+    margin-top: 2%;
 }
 
 h2{
     color: #050517;
     text-align: center;
-    font-family:'Baskerville Old Face';
+    font-family:'sans-serif';
 
 }
 
@@ -94,51 +76,17 @@ a:visited{
     color: #050517;
 }
 
-a:active{
-    color: #ff7e74;
-}
-
 a:hover{
-    text-align: center;
     color: #ff7e74;
-    font: bold;
-}
-
-h3{
-    color: #050517;
-    text-align: justify;
-    font-family:'Baskerville Old Face';
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-a{
-    font-size: 105%;
-}
-
-a:link{
-    color: #050517;
-}
-
-a:visited{
-    color: #050517;
-}
-
-a:active{
-    color: #ff7e74;
-}
-
-a:hover{
-    text-align: center;
-    color: #ff7e74;
-    font: bold;
 }
 
 .footer{
     background-color: #F4E4B3;
     padding: 10px;
+    margin: 5px;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+    color: #050517;
 }
