@@ -1,4 +1,4 @@
-/*  paleta de cores #050517 azul escuro / #ff7e74 rosa coral / #F4E4B3 nude
+/*  paleta de cores #05000C azul escuro / #B86B77 rosa coral / #F4C8C8 nude / #F7F0EF gelo
     fontes: Baskerville Old Face / Lucida Sans / Lucida Handwriting / Baskerville Old Face
 */
 
@@ -9,19 +9,19 @@
 }
 
 *::selection{
-    background-color: #050517;
-    color: #F4E4B3;
+    background-color: #05000C;
+    color: #F7F0EF;
 }
 
 .header{
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: #F4E4B3;
-    color: #050517;
+    background-color: #F7F0EF;
+    color: #05000C;
 }
 
 .item-nome{
-    background-color: #F4E4B3;
+    background-color: #F7F0EF;
     padding: 15px;
     text-align: left;
 }
@@ -33,7 +33,7 @@
 .container-body{
     display: grid;
     grid-template-columns: 50% 50%;
-    color: #050517;
+    color: #05000C;
 }
 
 .item-body{
@@ -44,20 +44,20 @@
 
 h1{
     text-align: center;
-    color: #ff7e74;
+    color: #B86B77;
     font-family: Lucida Handwriting;
     margin-top: 2%;
 }
 
 h2{
-    color: #050517;
+    color: #05000C;
     text-align: center;
     font-family:'sans-serif';
 
 }
 
 h3{
-    color: #050517;
+    color: #05000C;
     text-align: justify;
     font-family:'Baskerville Old Face';
     margin-left: 200px;
@@ -69,24 +69,37 @@ a{
 }
 
 a:link{
-    color: #050517;
+    color: #05000C;
 }
 
 a:visited{
-    color: #050517;
+    color: #05000C;
 }
 
 a:hover{
-    color: #ff7e74;
+    color: #B86B77;
+}
+
+.container-form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: #05000C;
+}
+
+.item-form{
+    padding: 15px;
+    text-align: left;
+    align-content: center;
+    background-color: #F7F0EF;
 }
 
 .footer{
-    background-color: #F4E4B3;
+    background-color: #F7F0EF;
     padding: 10px;
     margin: 5px;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
-    color: #050517;
+    color: #05000C;
 }
