@@ -2,46 +2,66 @@
     fontes: Baskerville Old Face / Lucida Sans / Lucida Handwriting / Baskerville Old Face
 */
 
+
+/*página inteira*/
 *{
     margin: 5px;
     padding: 1px;
     font-family:'Lucida Sans';
+    color: #B86B77;
+    background-color: #F7F0EF;
 }
 
+/*ao selecionar conteúdo com o mouse*/
 *::selection{
     background-color: #05000C;
     color: #F7F0EF;
 }
 
+/*cabeçalho - grid para dividir a linha, esquerda LOGO, direita MENU*/
 .header{
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: #F7F0EF;
-    color: #05000C;
+    background-color: #F4C8C8;
 }
 
+/*LOGO*/
 .item-nome{
-    background-color: #F7F0EF;
+    background-color: #F4C8C8;
     padding: 15px;
     text-align: left;
 }
+
+/*MENU*/
 .item-nav{
+    background-color: #F4C8C8;
     padding: 15px;
     text-align: right;
 }
 
+/*grid páginas home e contato*/
 .container-body{
     display: grid;
     grid-template-columns: 50% 50%;
     color: #05000C;
 }
 
+/*itens do grid body*/
 .item-body{
     padding: 15px;
     text-align: center;
     align-content: center;
 }
 
+/*item form*/
+.item-form{
+    padding: 15px;
+    text-align: left;
+    align-content: center;
+    background-color: #F4C8C8;
+}
+
+/*título da página*/
 h1{
     text-align: center;
     color: #B86B77;
@@ -49,13 +69,14 @@ h1{
     margin-top: 2%;
 }
 
+/*texto página home*/
 h2{
     color: #05000C;
-    text-align: center;
+    text-align: right;
     font-family:'sans-serif';
-
 }
 
+/*textos das páginas*/
 h3{
     color: #05000C;
     text-align: justify;
@@ -64,37 +85,48 @@ h3{
     margin-right: 200px;
 }
 
+h5{
+    background-color: #F4C8C8;
+}
+
+input{
+    background-color: #F7F0EF;
+    border: #F7F0EF;
+    padding: 1%;
+    width: 70%;
+    border-radius: 10px;
+    color: #05000C;
+}
+
+textarea{
+    padding: 1%;
+    width: 70%;
+}
+
+button{
+    padding: 1%;
+    width: 20%;
+    background-color: #05000C;
+    border: #05000C;
+    color: #F7F0EF;
+    border-radius: 25px;
+}
+
+/*links do menu*/
 a{
+    background-color: #F4C8C8;
     font-size: 105%;
-}
-
-a:link{
     color: #05000C;
 }
 
-a:visited{
-    color: #05000C;
-}
-
+/*ao passar o mouse no link*/
 a:hover{
     color: #B86B77;
 }
 
-.container-form{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    color: #05000C;
-}
-
-.item-form{
-    padding: 15px;
-    text-align: left;
-    align-content: center;
-    background-color: #F7F0EF;
-}
-
+/*rodapé*/
 .footer{
-    background-color: #F7F0EF;
+    background-color: #F4C8C8;
     padding: 10px;
     margin: 5px;
     text-align: center;
