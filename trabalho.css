@@ -1,9 +1,6 @@
-/*  paleta de cores #05000C azul escuro / #B86B77 rosa coral / #F4C8C8 nude / #F7F0EF gelo
-    fontes: Baskerville Old Face / Lucida Sans / Lucida Handwriting / Baskerville Old Face
-*/
+/* DESYREE GARCIA RU 986134*/
 
-/*página inteira*/
-*{
+*{ /*página inteira*/
     margin: 5px;
     padding: 1px;
     font-family:'Lucida Sans';
@@ -11,48 +8,41 @@
     background-color: #F7F0EF;
 }
 
-/*ao selecionar conteúdo com o mouse*/
-*::selection{
+*::selection{ /*ao selecionar conteúdo com o mouse*/
     background-color: #05000C;
     color: #F7F0EF;
 }
 
-/*cabeçalho - grid para dividir a linha, esquerda LOGO, direita MENU*/
-.header{
+.header{ /*cabeçalho - grid para dividir a linha, esquerda LOGO, direita MENU*/
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #F4C8C8;
 }
 
-/*LOGO*/
-.item-nome{
+.item-nome{ /*LOGO*/
     background-color: #F4C8C8;
     padding: 15px;
     text-align: left;
 }
 
-/*MENU*/
-.item-nav{
+.item-nav{ /*MENU*/
     background-color: #F4C8C8;
     padding: 15px;
     text-align: right;
 }
 
-/*grid páginas home e contato*/
-.container-body{
+.container-body{ /*grid páginas home e contato*/
     display: grid;
     grid-template-columns: 50% 50%;
     color: #05000C;
 }
 
-/*itens do grid body*/
-.item-body{
+.item-body{ /*itens do grid body*/
     padding: 15px;
     text-align: center;
     align-content: center;
 }
 
-/*item form*/
 .item-form{
     padding: 15px;
     text-align: left;
@@ -60,7 +50,7 @@
     background-color: #F4C8C8;
 }
 
-.container-portifolio{
+.container-portifolio{ /*grid para página portifólio*/
     display: grid;
     grid-template-columns: 33.3333% 33.3333% 33.3333%;
     color: #05000C;
@@ -68,31 +58,25 @@
     row-gap: 0cm;
 }
 
-/*itens do grid body*/
-.item-portifolio{
-    padding: 15px;
+.item-portifolio{ /*alinhamento grid portifólio*/
     text-align: center;
     align-content: center;
-    border: 1px #05000C;
 }
 
-/*título da página*/
-h1{
+h1{ /*título da página*/
     text-align: center;
     color: #B86B77;
     font-family: Lucida Handwriting;
     margin-top: 2%;
 }
 
-/*texto página home*/
-h2{
+h2{ /*texto página home*/
     color: #05000C;
     text-align: right;
     font-family:'sans-serif';
 }
 
-/*textos das páginas*/
-p{
+p{ /*textos das páginas*/
     color: #05000C;
     text-align: justify;
     font-family:'Baskerville Old Face';
@@ -104,7 +88,7 @@ h5{
     background-color: #F4C8C8;
 }
 
-input{
+input{ /*layout form*/
     background-color: #F7F0EF;
     border: #F7F0EF;
     padding: 1%;
@@ -113,12 +97,12 @@ input{
     color: #05000C;
 }
 
-textarea{
+textarea{ /*layout mensagens*/
     padding: 1%;
     width: 70%;
 }
 
-button{
+button{ /*layout botão enviar*/
     padding: 1%;
     width: 20%;
     background-color: #05000C;
@@ -127,20 +111,17 @@ button{
     border-radius: 25px;
 }
 
-/*links do menu*/
-a{
+a{ /*links*/
     background-color: #F4C8C8;
     font-size: 105%;
     color: #05000C;
 }
 
-/*ao passar o mouse no link*/
-a:hover{
+a:hover{ /*ao passar o mouse no link*/
     color: #B86B77;
 }
 
-/*rodapé*/
-.footer{
+.footer{ /*rodapé*/
     background-color: #F4C8C8;
     padding: 10px;
     margin: 5px;
